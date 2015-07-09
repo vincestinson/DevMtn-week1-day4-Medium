@@ -1,0 +1,115 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+
+}
+
+
+.layoutSingleColumn {
+  width: 700px;
+  margin: 0 auto;
+}
+
+p {
+  position: relative;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0,0,0,0.8);
+}
+
+.graf--h2 {
+  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  margin-left: -3px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin-top: 40px;
+  padding-top: 0;
+  margin-bottom: 8px;
+  color: rgba(0,0,0,0.8);
+}
+
+div.section-divider, .section-inner, .postFollowUps, .notesPositionContainer {
+  position: relative;
+  right: 0%;
+  transition: right 200ms;
+}
+
+.header {
+  height: 25%;
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;}
+
+.buttonSearch {
+  border-radius: 25px;
+  border: 1px solid #c1c1c1;
+  padding: 10px;
+  width: 175px;
+  height: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  color: #c1c1c1;
+  text-align: left;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search { 
+  position: absolute;
+  top: 24px;
+  left: 7px;
+  font-size: 15px;
+}
+
+input {
+    border-radius: 25px;
+    border: 1px solid #c1c1c1;
+    padding: 10px; 
+    width: 175px;
+    height: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    color: #c1c1c1;
+    text-align: left;
+}
+
+
+
+.blackColor {
+  color: black;
+}
+
+.buttonSignUp {
+    border-radius: 25px;
+    border: 1px solid #76BC83;
+    padding: 10px; 
+    width: 125px;
+    height: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    color: #76BC83;
+    text-align: center;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+
+
+}
